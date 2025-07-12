@@ -3,6 +3,10 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Help from './Componets/Help.jsx';
+import Contact from './Componets/Contact.jsx';
+import SignIn from './Componets/SignIn.jsx';
+
 
 // Lazy-loaded components
 const ProductList = lazy(() => import('./Componets/ProductList.jsx'));
@@ -44,6 +48,18 @@ const appRouter = createBrowserRouter([
             <Cart />
           </Suspense>
         )
+      },
+      {
+        path:"/help",
+        element:<Help/>
+      },
+      {
+        path:"/contact",
+        element:<Contact/>
+      },
+      {
+        path:"signin",
+        element:<SignIn/>
       }
     ]
   }
