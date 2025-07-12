@@ -13,10 +13,10 @@ ShoppyGlobe is an e-commerce web application that allows users to browse product
 
 ## Project Structure
 /src
-  /components      # Reusable components (e.g., ProductItem, Header, Footer)
-  /pages           # Page components (e.g., ProductDetail, Cart, ProductList)
-  /utils           # Utility functions and custom hooks
-  /store           # Redux store and slices
-  main.js          # Main application component
-  index.js         # React entry point
+ - /components      # Reusable components (e.g., ProductItem, Header, Footer)
+ - /pages           # Page components (e.g., ProductDetail, Cart, ProductList)
+ - /utils           # Utility functions and custom hooks
+ -  /store           # Redux store and slices
+ - main.js          # Main application component
+  -index.js         # React entry point
 
