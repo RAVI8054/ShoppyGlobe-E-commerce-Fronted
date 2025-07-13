@@ -28,14 +28,15 @@ ShoppyGlobe/
 │ │ ├── ProductDetail.jsx
 │ │ ├── Cart.jsx
 │ │ ├── CartItem.jsx
-│ │ └── NotFound.jsx
+│ │ ├── Help.jsx
+│ │ ├── SignIn.jsx
+│ │ ├── Contact.jsx
+│ │ └── Error.jsx
 │ │
-│ ├── redux/
-│ │ ├── store.js
+│ ├── utils/
+│ │ ├── appstore.js
+│ │ ├── useProducts.js
 │ │ └── cartSlice.js
-│ │
-│ ├── hooks/
-│ │ └── useFetchProducts.js
 │ │
 │ ├── App.jsx
 │ ├── index.js
