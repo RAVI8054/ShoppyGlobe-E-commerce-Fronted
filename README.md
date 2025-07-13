@@ -54,5 +54,28 @@ ShoppyGlobe/
 ├── package.json
 └── README.md
 ```
+---
+---
+## 🚀 Getting Started
+### 📁 Prerequisites
+- Node.js (v14+)
+- npm 
+---
+### 🛠️ Installation
+1. Clone the repository:
+   ```bash
+  [ git clone https://github.com/RAVI8054/ShoppyGlobe-E-commerce-Fronted.git ]
+   cd ShoppyGlobe-E-commerce-Fronted
+2. Install dependencies:
+   ```bash
+   npm install 
+3. Start the server:
+   ```bash
+   npm run dev
+4. Open your browser and go to:
+    ```bash
+    http://localhost:3000
+---
+
 
 
