@@ -5,7 +5,7 @@
    [🔗 ShoppyGlobe GitHub](https://github.com/RAVI8054/ShoppyGlobe-E-commerce-Fronted)
 
 ## 🌐 Live Demo
-   [🔗 View Deployed App](link) 
+   [🔗 View Deployed App](https://shoppy-globe-e-commerc-git-e4e931-ravi-kumars-projects-5dba0fe6.vercel.app) 
 ---
 ## Features
   - 🛒 Browse Products – View a list of products fetched from an external API (https://dummyjson.com/products).
