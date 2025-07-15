@@ -1,3 +1,5 @@
+
+// itreate items of product list
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { addItem } from "../utils/cartSlice";

@@ -30,9 +30,10 @@ function ProductList() {
 
             <div className="p-4">
                 {/* Map over filtered products and render ProductItem */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div className="grid   grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {filteredProducts.map((product) => (
-                        <div key={product.id} className="border-2 p-2 rounded">
+                        <div key={product.id}
+                            className="border-none p-2 rounded shadow-sm hover:shadow-[0_0_10px_2px_rgba(34,197,94,0.4)] transition-shadow duration-300">
                             <ProductItem product={product} />
                         </div>
                     ))}
